@@ -31,4 +31,4 @@ Business Recommendations
 
 4.Maintain regular update cycles to improve performance and satisfaction
 
-Leverage user review insights to improve features and fix recurring issues
+5.Leverage user review insights to improve features and fix recurring issues
