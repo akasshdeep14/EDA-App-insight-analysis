@@ -1,5 +1,28 @@
 ### App Insight Analysis
 
+## What I Did
+
+Data Cleaning & Preprocessing: I handled missing values in critical columns like Rating, Type, and Content Rating. I also standardized the data by removing duplicates and stripping extra spaces from categories and genres.
+
+Data Transformation: I converted non-numeric strings in columns such as Installs (removed "+" and ","), Price (removed "$"), and Size (standardized "M" and "k" values) into numeric formats to facilitate mathematical analysis.
+
+Exploratory Data Analysis (EDA):
+
+I calculated the global average rating of apps in the dataset, which is approximately 4.19.
+
+I identified that the dataset contains 34 unique categories of apps.
+
+I visualized the distribution of app sizes using histograms to understand the common footprint of mobile applications.
+
+Correlation & Sentiment Analysis: I explored how app size, price, and update frequency correlate with user engagement and ratings. I also utilized sentiment analysis on user reviews to gauge emotional motivations and common user praise or complaints.
+
+## Tools Used
+
+Python: The primary programming language used for the entire analysis.
+
+Pandas & NumPy: Used for data manipulation, cleaning, and structural processing of the CSV datasets.
+
+Matplotlib & Seaborn: Utilized to create visualizations such as histograms and charts to identify market trends and patterns.
 This case study effectively demonstrates data-driven insights into Google Play Store app success using standard analytics practices. It aligns with common findings from similar projects on popular Kaggle datasets.
 ​
 
